@@ -1,0 +1,87 @@
+body .imagem img {
+    border-radius: 8px;
+    width: 250px;
+}
+
+body .cartao {
+    padding: 10px;
+    padding-left: 20px;
+    background-color: hsl(216, 50%, 16%);
+    max-width: 265px;
+    height: 520px;
+    border-radius: 8px;
+}
+
+.cartao .texto h2 {
+    color:hsl(0, 0%, 100%);
+}
+
+.cartao .texto h3 {
+    color: hsl(215, 32%, 27%);
+}
+
+.cartao .detalhes {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.cartao .detalhes .valor {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: hsl(178, 100%, 50%);
+}
+
+.cartao .detalhes .valor h4 {
+    padding-left: 10px;
+}
+
+.cartao .detalhes .tempo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-right: 10px;
+    color: hsl(215, 51%, 70%)
+}
+
+.cartao .detalhes .tempo h4 {
+    padding-left: 5px;
+}
+
+.cartao .linha {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: hsl(215, 32%, 27%);
+    width: 250px;
+    height: 3px;
+}
+
+.cartao .perfil {
+    padding-top: 10px;
+    display: flex;
+    align-items: center;
+}
+
+
+.cartao .perfil img {
+    border-radius: 20px;
+    width: 40px;
+}
+
+.cartao .perfil .Criado {
+    padding-left: 10px;
+}
+
+.cartao .perfil .Nome {
+    padding-left: 8px;
+}
+
+.cartao .perfil .Criado {
+    color: hsl(215, 32%, 27%);
+}
+
+.cartao .perfil .Nome {
+    color: hsl(0, 0%, 100%);
+}
